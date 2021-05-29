@@ -68,14 +68,24 @@
       text-align: center;
     }
 
+   #page-container {
+  position: relative;
+  min-height: 100vh;
+   }
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+   }
+
    .footer {
-      position: fixed;
+      position: absolute;
       padding: 10px 10px 0px 10px;
       background-color: navy;
       color: white;
       bottom: 0;
       text-align: center;
       width: 100%;
+      height: 2.5rem;
             
    }
     
