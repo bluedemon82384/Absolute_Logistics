@@ -101,5 +101,25 @@
       .pageContent {
         flex-direction: column;
       }
+       
+       .image1 {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+     
+      
+     } 
+  
+       .image2 {
+         width: 100%;
+         height: 534px;
+         object-fit: cover;
+         object-position: 50% 50%;
+     }
+      
+      .image3 {
+       width: 100%;
+       height: 850px;
+     }
     
     }
