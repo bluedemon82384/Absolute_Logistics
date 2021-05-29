@@ -69,11 +69,13 @@
     }
 
    .footer {
-      position: fixed;
+      position: bottom;
+      padding: 10px 10px 0px 10px;
       background-color: navy;
       color: white;
       bottom: 0;
       text-align: center;
+      width: 100%;
             
    }
     
