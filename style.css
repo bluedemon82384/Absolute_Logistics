@@ -69,15 +69,13 @@
     }
 
    .footer {
-      position: absolute;
+      position: fixed;
       background-color: navy;
       color: white;
       bottom: 0;
       text-align: center;
       padding: 10px 10px 0px 10px;
-      width: 100%;
-      /* Height of the footer*/ 
-      height: 40px;
+      
    }
     
      
