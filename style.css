@@ -69,7 +69,7 @@
     }
 
    .footer {
-      position: bottom;
+      position: fixed;
       padding: 10px 10px 0px 10px;
       background-color: navy;
       color: white;
