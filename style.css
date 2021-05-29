@@ -69,6 +69,7 @@
     }
 
    .footer {
+      position: fixed;
       background-color: navy;
       color: white;
       position: sticky;
