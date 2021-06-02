@@ -1,158 +1,553 @@
-   
-    body {
+body {
     
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      
-    }
-    
-    #navigationBar{
-    
-      background-color: navy;
-      color: white;
-      position: relative;
-      top: 0;
-      text-align: center;
-    
-    
-    }
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
 
-   #navigationBar a {
+#navigationBar{
+  background-color: navy;
+  color: white;
+  position: relative;
+  top: 0;
+  text-align: center;
+  }
 
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 15px;
-   }
+#navigationBar a {
+color: white;
+text-decoration: none;
+display: inline-block;
+padding: 15px;
+}
 
 #navigationBar a:visted {
-   color: white;
-   text-decoration: none;
-   display: inline-block;
-   padding: 15px;
+color: white;
+text-decoration: none;
+display: inline-block;
+padding: 15px;
 }
-    
-       
-    .pageContent {
-    
-      padding: 20px;
-      display: flex;
-      display: -ms-flexbox;
-    
-    
-    }
-    
-       
-    .column {
-      float: left;
-      width: 50%;
-      padding: 10px;
-    }
-    
-    .row {
-      content: "";
-      display: table;
-      clear: both;
-    
-    }
-           
-    #main {
-      text-align: center;
-      
-    }
-    
-    .logisticsservices {
-      color: navy;
-    }
-
-    .choose {
-      color: navy;
-      text-align: center;
-    }
-
-    .warehouse {
-      color: navy;
-      text-align: center;
-    }
-
-   #page-container {
-  position: relative;
-  min-height: 100vh;
-   }
-
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
-   }
-
-   .footer {
-      position: absolute;
-      background-color: navy;
-      color: white;
-      bottom: 0;
-      text-align: center;
-      width: 100%;      
-            
-   }
-    
-     
-   .image1 {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     
-      
-  } 
-  
-  .image2 {
-    width: 100%;
-    height: 534px;
-    object-fit: cover;
-    object-position: 50% 50%;
-  }
-      
-  .image3 {
-    width: 100%;
-    height: 850px;
-  }
-  
 
    
-    
-    @media screen and (max-width: 700px) {
-    
-      #navigationBar {
-        position: relative;
-      }
-    
-      .pageContent {
-        flex-direction: column;
-      }
+.pageContent {
+
+  padding: 20px;
+  display: flex;
+  display: -ms-flexbox;
+}
+
+   
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+
+}
        
-       .image1 {
-         width: 100%;
-         size: relative;
-     } 
+#main {
+  text-align: center;
   
-       .image2 {
-         width: 100%;
-         height: 534px;
-         object-fit: cover;
-         object-position: 50% 50%;
-     }
-      
-      .image3 {
-       width: 100%;
-       height: 850px;
-     }
-       
-       .header {
-          width: 100%;
-          
-       }
-       
-       .footer {
-          width: 100%
-          padding: 10px 10px 0px 10px;
-       }
+}
+
+.logisticsservices {
+  color: navy;
+  font-size: 66px;
+}
+
+.ourteam {
+  color: navy;
+  font-size: 66px;
+  text-align: center;
+}
+
+.p1 {
+  font-size: 20px;
+  padding-left: 35%;
+  padding-right: 35%;  
+}
+
+.p2 {
+  font-size: 20px;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+.p3 {
+  font-size: 20px;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+.p4 {
+  font-size: 20px;
+}
+
+.p5 {
+  font-size: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.p6 {
+  font-size: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.spanish {
+  text-align: right;
+  color: navy;
+  padding-left: 20px;
+}
+
+.ch {
+  font-size: 72px;
+  color: navy; 
+  text-align: center;
+}
+
+.wh {
+  font-size: 72px;
+  color: navy; 
+  text-align: center;
+}
+
+.rail {
+  font-size: 60px;
+  color: navy;
+  text-align: center;
+}
+
+.rail2 {
+  font-size: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.rail3 {
+  font-size: 30px;
+  color: navy;
+  text-align: center;
+}
+
+.rail4 {
+  font-size: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+  list-style-type: square;
+}
+
+.rail5 {
+  color: red;
+}
+
+.intermodal {
+  font-size: 72px;
+  color: navy;
+  text-align: center;
+  
+}
+
+.intermodal2 {
+  font-size: 32px;
+  color: navy;
+  text-align: center;
+  padding-right: 40%;
+}
+
+.sh {
+  font-size: 22px;
+  color: navy;
+  text-align: left;
+}
+
+.rustyheader {
+  font-size: 22px;
+  color: navy;
+  padding-top: 5%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+.rusty {
+  font-size: 18px;
+  padding-left: 10%;
+  padding-right: 14%;
+  display: block;
+}
+
+.daveheader {
+  font-size: 22px;
+  color: navy;
+  padding-left: 10%;
+  padding-right: 65%;
+  padding-top: 5%;
+}
+
+.dave {
+  font-size: 18px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: block;
+}
+
+.carmenheader {
+  font-size: 22px;
+  color: navy;
+  padding-top: 5%;
+  padding-right: 5%;
+  text-align: right;
+  
+}
+
+.carmen {
+  font-size: 18px;
+  padding-left: 10%;
+  padding-right: 14%;
+  display: block;
+}
+
+
+
+.choose {
+  color: navy;
+  text-align: center;
+  font-size: 66px;
+  line-height: 1em;
+}
+
+.warehouse {
+  color: navy;
+  text-align: center;
+}
+
+.truck {
+  font-size: 72px;
+  color: navy;
+  text-align: center;
+}
+
+.usheader {
+  font-size: 42px;
+  color: navy;
+  text-align: center;
+  }
+
+
+
+#page-container {
+position: relative;
+min-height: 100vh;
+}
+
+#content-wrap {
+padding-bottom: 2.5rem;
+}
+
+.footer {
+  position: fixed;
+  background-color: navy;
+  color: white;
+  bottom: 0;
+  text-align: center;
+  width: 100%;      
+        
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 480px 480px 480px;
+  justify-content: center;
+  padding: 50px;
+  column-gap: 15%;
+  row-gap: 5%;
+  padding-left: 15%;  
+}
+
+#box1 {
+  height: auto;
+  width: 276px;
+  border: solid 1px black;
+  border-spacing: 40px;
+  background-color:white;
+  width: 276px;
+  height: auto;
+  box-shadow:10px 10px grey;
+  grid-column: 1 / 6;
+  grid-row: 1 / 2;
+  padding: 10px;
     
-    }
+}
+
+
+#box2 {
+  height: auto;
+  width: 276px;
+  border: solid 1px black;
+  border-spacing: 40px;
+  background-color:white;
+  width: 276px;
+  height:auto;
+  box-shadow:10px 10px grey;
+  grid-column: 2 / 6;
+  grid-row: 1 / 2;
+  padding: 10px;
+}
+
+#box3 {
+  height: auto;
+  width: 276px;
+  border: solid 1px black;
+  border-spacing: 40px;
+  background-color:white;
+  width: 276px;
+  height:auto;
+  box-shadow:10px 10px grey;
+  grid-column: 3 / 6;
+  grid-row: 1 / 2;
+  padding: 10px;
+}
+
+#box4 {
+  height: auto;
+  width: 276px;
+  border: solid 1px black;
+  border-spacing: 40px;
+  background-color:white;
+  width: 276px;
+  height: auto;
+  box-shadow:10px 10px grey;
+  grid-column: 1 / 6;
+  grid-row: 2 / 2;
+  padding: 10px;
+    
+}
+
+
+#box5 {
+  height: auto;
+  width: 276px;
+  border: solid 1px black;
+  border-spacing: 40px;
+  background-color:white;
+  width: 276px;
+  height:auto;
+  box-shadow:10px 10px grey;
+  grid-column: 2 / 6;
+  grid-row: 2 / 2;
+  padding: 10px;
+}
+
+#box6 {
+  height: auto;
+  width: 276px;
+  border: solid 1px black;
+  border-spacing: 40px;
+  background-color:white;
+  width: 276px;
+  height:auto;
+  box-shadow:10px 10px grey;
+  grid-column: 3 / 6;
+  grid-row: 2 / 2;
+  padding: 10px;
+}
+
+.hyperlinks {
+  color: red;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  padding-bottom: 5%;
+  padding-left: 15%;
+}
+
+.hyperlinks2 {
+  color: white;
+}
+
+.hyperlinks3 {
+  color: navy;
+}
+
+
+.image1 {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ 
+  
+} 
+
+.image2 {
+width: 100%;
+height: 534px;
+object-fit: cover;
+object-position: 50% 50%;
+}
+  
+.image3 {
+width: 100%;
+height: 850px;
+}
+
+.image4 {
+  width: 100%;
+  height: 534px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.image5 {
+  width: 100%;
+  height: 534px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.image6 {
+  width: 100%;
+  height: 534px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.image7 {
+  width: 100%;
+  height: 534px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.image8 {
+  width: 100%;
+  height: 534px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.image9 {
+  width: 100%;
+  height: 534px;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.image10 {
+  width: 100%;
+  height: 534px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.image11 {
+  width: 35%;
+  height: 35%;
+  object-fit: cover;
+  padding-left: 35%;
+}
+
+.image12 {
+  width: 35%;
+  height: 420px;
+  object-fit: cover;
+  padding-right: 10%;  
+}
+
+.image13 {
+  width: 35%;
+  height: 420px;
+  object-fit: cover;
+  }
+
+.image14 {
+  width: 100%;
+  height: 534px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.image15 {
+  width: 100%;
+  height: 534px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.rustyimage {
+  width: 200px;
+  height: 268px;
+  padding-bottom: 2%;
+  padding-right: .5%;
+  padding-left: 2%;
+  float: right;
+  vertical-align: top;
+} 
+
+.daveimage {
+  width: 200px;
+  height: 268px;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  padding-left: .5%;
+  float: left;
+  vertical-align: top;
+}
+
+.carmenimage {
+  width: 200px;
+  height: 268px;
+  padding-bottom: 2%;
+  padding-right: .5%;
+  padding-left: 2%;
+  float: right;
+  vertical-align: top;
+  
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+  #navigationBar {
+    position: relative;
+  }
+
+  .pageContent {
+    flex-direction: column;
+  }
+   
+   .image1 {
+     width: 100%;
+     size: relative;
+ } 
+
+   .image2 {
+     width: 100%;
+     height: 534px;
+     object-fit: cover;
+     object-position: 50% 50%;
+ }
+  
+  .image3 {
+   width: 100%;
+   height: 850px;
+ }
+   
+   .header {
+      width: 100%;
+      
+   }
+   
+   .footer {
+      width: 100%;
+      padding: 10px 10px 0px 10px;
+   }
+
+}
