@@ -238,6 +238,17 @@ padding: 15px;
   text-align: center;
   }
 
+.contact {
+  font-size: 60px;
+  color: navy;
+  text-align: center;
+}
+
+.contact2 {
+  font-size: 24px;
+  color: black;
+  padding-left: 5%;
+}
 
 
 #page-container {
@@ -477,6 +488,13 @@ height: 850px;
   height: 534px;
   object-fit: cover;
   object-position: 50% 50%;
+}
+
+.linkedin {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  padding-left: 5%;
 }
 
 .rustyimage {
