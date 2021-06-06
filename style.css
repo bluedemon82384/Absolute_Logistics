@@ -566,7 +566,7 @@ height: 850px;
 
    .grid-container {
     display: grid;
-    grid-template-columns: relative;
+    grid-template-columns: relative relative relative;
     grid-template-rows: 480px 480px 480px;
     justify-content: center;
     padding: 50px;
