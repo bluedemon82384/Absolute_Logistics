@@ -54,20 +54,33 @@
 
             
             <div class="form-container">
-              <form method="POST" class="contact-form">
-                  <h2 class="c2">Information Request Form</h2></br>
-                  <h3 class="c2">Please fill out the following information and press the SUBMIT button</h3>
-                  <input type="text" id="company" placeholder="Company"></br>
-                  <input type="text" id="contact" placeholder="Contact"></br>
-                  <input type="text" id="title" placeholder="Title"></br>
-                  <input type="text" id="address" placeholder="Address"></br>
-                  <input type="text" id="city" placeholder="City/State/Zip"></br>
-                  <input type="text" id="telephone" placeholder="Telephone"></br>
-                  <input type="email" id="email" placeholder="Email"></br>
-                  <input type="text" id="subject" placeholder="Subject"></br>
-                  <textarea id="message" placeholder="message" cols="30" rows="10"></textarea></br>
-                  <input type="submit" class="submit" value="SUBMIT">
-              </form>  
+                <form action="contact.php" method="post">
+                    <div class="elem-group">
+                      
+                      <input type="text" id="name" name="visitor_name" placeholder="Name" pattern=[A-Z\sa-z]{3,20} required>
+                    </div>
+                    <div class="elem-group">
+                      
+                      <input type="text" id="phone" name="Telephone" placeholder="Telephone">
+                    </div>
+                    <div class="elem-group">
+                      
+                      <input type="email" id="email" name="visitor_email" placeholder="Email" required>
+                    </div>
+                    <div class="elem-group">
+                      
+                      <select id="department-selection" name="concerned_department" required>
+                          <option value="">Select a Department</option>
+                          <option value="billing">Billing</option>
+                          <option value="sales">Sales</option>
+                      </select>
+                    </div>                    
+                    <div class="elem-group">
+                      
+                      <textarea id="message" name="visitor_message" placeholder="Message" required></textarea>
+                    </div>
+                    <input type="submit" class="submit" value="Send Message">
+                  </form>
             </div>
 
            
