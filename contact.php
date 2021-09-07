@@ -4,7 +4,6 @@ if($_POST) {
     $visitor_name = "";
     $visitor_email = "";
     $email_title = "";
-    $concerned_department = "";
     $visitor_message = "";
     $email_body = "<div>";
       
@@ -30,12 +29,7 @@ if($_POST) {
                         </div>";
     }
       
-    if(isset($_POST['concerned_department'])) {
-        $concerned_department = filter_var($_POST['concerned_department'], FILTER_SANITIZE_STRING);
-        $email_body .= "<div>
-                           <label><b>Concerned Department:</b></label>&nbsp;<span>".$concerned_department."</span>
-                        </div>";
-    }
+    
       
     if(isset($_POST['visitor_message'])) {
         $visitor_message = htmlspecialchars($_POST['visitor_message']);
@@ -46,15 +40,15 @@ if($_POST) {
     }
       
     if($concerned_department == "billing") {
-        $recipient = "eloader29@gmail.com";
+        $recipient = "sales@absolutelogistics.com";
     }
     else if($concerned_department == "sales") {
-        $recipient = "eloader29@gmail.com";
+        $recipient = "sales@absolutelogistics.com";
     }
     
     }
     else {
-        $recipient = "eloader29@gmail.com";
+        $recipient = "sales@absolutelogistics.com";
     }
       
     $email_body .= "</div>";
